@@ -27,16 +27,18 @@
       }
 
       section {
+        max-width: 100vw;
         min-height: 100vh;
-        max-height: 100vh;
       }
 
       .animateS {
         animation: goLeft 3s linear infinite;
+        overflow: hidden;
       }
 
       .animateL {
         animation: goRight 3s linear infinite;
+        overflow: hidden;
       }
 
       @keyframes goRight {
@@ -81,9 +83,6 @@
             <div>HELLO</div>
             <div>EVERYONE</div>
             <div>I'M PASID KHUMJANAD</div>
-            <!-- <div class="h5 position-absolute" style="top: 355px; left: 20px">
-              ThIS iS MY WEbSItE
-            </div> -->
           </div>
           <div
             class="
@@ -157,7 +156,7 @@
           </div>
           <div class="m-1">ABOUT</div>
         </div>
-        <div class="card border-0 w-100">
+        <div class="card border-0 d-flex">
           <div class="row">
             <div
               class="
@@ -183,6 +182,7 @@
                 flex-column
                 justify-content-center
                 align-items-start
+                h-100
               "
             >
               <p class="h2 my-3">My name is PASID KHUMJANAD</p>
